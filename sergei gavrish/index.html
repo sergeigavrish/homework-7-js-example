@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Document</title>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+	<div id="container">
+		<div class="btn card">
+			<button id="open">+</button>
+		</div>
+	</div>
+
+
+	<div id="modal" class="modal">
+		<header class="modal-content">
+			<span id="close">&times;</span>
+			<p>Some text in the Modal..</p>
+		</header>
+		<form id="form" class="modal-content">
+			<label for="name">Name:</label>
+			<input id="name" type="text" name="name">
+			<label for="radio">male</label>
+			<input type="radio" name="gender" value="male">
+			<label for="radio">female</label>
+			<input type="radio" name="gender" value="female">
+			<label for="jobType">Job:</label>
+			<input id="jobType" type="text" name="jobType">
+			<button id="submit" type="submit">submit</button>
+		</form>
+	</div>
+</body>
+</html>

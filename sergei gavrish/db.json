@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Technical Whale",
+      "jobType": "Architect",
+      "gender": "male"
+    },
+    {
+      "name": "Copper Dolphin",
+      "id": 2,
+      "jobType": "Engineer",
+      "gender": "female"
+    },
+    {
+      "name": "Blazing Armadillo",
+      "id": 3,
+      "jobType": "Interior Designer",
+      "gender": "male"
+    },
+    {
+      "name": "Iron Baboon",
+      "id": 4,
+      "jobType": "Designer",
+      "gender": "female"
+    },
+    {
+      "name": "Mad Chicken",
+      "id": 5,
+      "jobType": "Interior Architect",
+      "gender": "female"
+    }
+  ]
+}
