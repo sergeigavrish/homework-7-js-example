@@ -147,9 +147,7 @@ window.addEventListener('load', function() {
 			modal.style.display = "none";
 			submit.classList.remove("put");
 			event.target.removeAttribute('data-id');
-			document.getElementById('name').value = '';
-			document.getElementById('jobType').value = '';
-			document.querySelector('input[name="gender"]:checked').checked = false;
+			event.target.reset();
 		};
 	});
 
